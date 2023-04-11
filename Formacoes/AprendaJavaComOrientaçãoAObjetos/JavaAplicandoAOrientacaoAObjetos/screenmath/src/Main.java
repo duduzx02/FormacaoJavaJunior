@@ -3,9 +3,9 @@ import br.com.alura.screenmatch.modelos.Movie;
 public class Main {
     public static void main(String[] args) {
         Movie myMovie = new Movie();
-        myMovie.name = "O poderoso chefão";
-        myMovie.releaseyear = 1970;
-        myMovie.durationInMinutes = 180;
+        myMovie.setName("O poderoso chefão");
+        myMovie.setReleaseyear(1970);
+        myMovie.setDurationInMinutes(180);
 
         myMovie.showedTechnicalSheet();
 
