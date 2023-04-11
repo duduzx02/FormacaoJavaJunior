@@ -6,6 +6,10 @@ public class Movie {
     private int evaluationTotal;
     int durationInMinutes;
 
+    int getEvaluationTotal(){
+        return evaluationTotal;
+    }
+
 
     void showedTechnicalSheet(){
         System.out.println("Nome do filme: " + name);
@@ -20,4 +24,6 @@ public class Movie {
     double mediumCatch(){
        return sumOfRatings / evaluationTotal;
     }
+
+
 }
