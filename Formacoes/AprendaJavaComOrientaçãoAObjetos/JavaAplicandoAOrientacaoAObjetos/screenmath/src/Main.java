@@ -11,8 +11,6 @@ public class Main {
         myMovie.evaluate(5);
         myMovie.evaluate(10);
 
-        System.out.println(myMovie.sumOfRatings);
-        System.out.println(myMovie.evaluationTotal);
         System.out.println(myMovie.mediumCatch());
     }
 }

@@ -2,8 +2,8 @@ public class Movie {
     String name;
     int releaseyear;
     boolean includedInThePlan;
-    double sumOfRatings;
-    int evaluationTotal;
+    private double sumOfRatings;
+    private int evaluationTotal;
     int durationInMinutes;
 
 
