@@ -5,7 +5,14 @@ public class Main {
         myMovie.releaseyear = 1970;
         myMovie.durationInMinutes = 180;
 
-        System.out.println(myMovie.name);
+        myMovie.showedTechnicalSheet();
 
+        myMovie.evaluate(8);
+        myMovie.evaluate(5);
+        myMovie.evaluate(10);
+
+        System.out.println(myMovie.sumOfRatings);
+        System.out.println(myMovie.evaluationTotal);
+        System.out.println(myMovie.mediumCatch());
     }
 }
