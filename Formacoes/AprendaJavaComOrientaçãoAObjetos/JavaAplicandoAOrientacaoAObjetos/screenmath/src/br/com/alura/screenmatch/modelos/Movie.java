@@ -1,3 +1,5 @@
+package br.com.alura.screenmatch.modelos;
+
 public class Movie {
     String name;
     int releaseyear;
@@ -6,22 +8,22 @@ public class Movie {
     private int evaluationTotal;
     int durationInMinutes;
 
-    int getEvaluationTotal(){
+    public int getEvaluationTotal(){
         return evaluationTotal;
     }
 
 
-    void showedTechnicalSheet(){
+    public void showedTechnicalSheet(){
         System.out.println("Nome do filme: " + name);
         System.out.println("Ano de lançamento: " + releaseyear);
     }
 
-    void evaluate(double note){
+    public void evaluate(double note){
         sumOfRatings += note;
         evaluationTotal++;
     }
 
-    double mediumCatch(){
+    public double mediumCatch(){
        return sumOfRatings / evaluationTotal;
     }
 
