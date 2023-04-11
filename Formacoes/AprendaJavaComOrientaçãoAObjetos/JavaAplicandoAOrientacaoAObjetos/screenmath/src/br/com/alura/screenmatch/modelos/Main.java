@@ -1,4 +1,4 @@
-import br.com.alura.screenmatch.modelos.Movie;
+package br.com.alura.screenmatch.modelos;
 
 public class Main {
     public static void main(String[] args) {
@@ -15,5 +15,13 @@ public class Main {
 
         System.out.println("Total de avaliações: " + myMovie.getEvaluationTotal());
         System.out.println(myMovie.mediumCatch());
+
+        Series lost = new Series();
+        lost.setName("Lost");
+        lost.setReleaseyear(2000);
+        lost.showedTechnicalSheet();
+        lost.setSeasons(10);
+        lost.setEpisodeBySeason(10);
+
     }
 }
