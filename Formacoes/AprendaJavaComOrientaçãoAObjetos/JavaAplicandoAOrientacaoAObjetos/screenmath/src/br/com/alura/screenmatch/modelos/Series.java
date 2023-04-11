@@ -38,5 +38,16 @@ public class Series extends Title {
     public void setMinutesPerEpisode(int minutesPerEpisode) {
         this.minutesPerEpisode = minutesPerEpisode;
     }
+
+    @Override
+    public int getDurationInMinutes() {
+        return getMinutesPerEpisode() * getSeasons() * getEpisodeBySeason();
+    }
+
+    @Override
+    public void showedTechnicalSheet(){
+        System.out.println("Nome do Serie: " + getName());
+        System.out.println("Ano de lançamento: " + getReleaseyear());
+    }
 }
 
