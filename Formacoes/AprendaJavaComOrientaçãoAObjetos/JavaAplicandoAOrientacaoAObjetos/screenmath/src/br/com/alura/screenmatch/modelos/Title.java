@@ -59,6 +59,8 @@ public class Title {
     public void showedTechnicalSheet(){
         System.out.println("Nome do filme: " + name);
         System.out.println("Ano de lançamento: " + releaseyear);
+        System.out.println("Duração em minutos: " + durationInMinutes);
+        System.out.println("Incluído no plano: " + includedInThePlan);
     }
 
     public void evaluate(double note){
