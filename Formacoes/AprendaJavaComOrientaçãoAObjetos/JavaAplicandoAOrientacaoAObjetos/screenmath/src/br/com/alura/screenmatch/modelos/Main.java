@@ -1,5 +1,7 @@
 package br.com.alura.screenmatch.modelos;
 
+import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
+
 public class Main {
     public static void main(String[] args) {
         Movie myMovie = new Movie();
@@ -27,6 +29,19 @@ public class Main {
         lost.setEpisodeBySeason(10);
         lost.setMinutesPerEpisode(50);
         System.out.println("Duração para maratonar Lost: " + lost.getDurationInMinutes());
+
+        System.out.println("--------------------------------------");
+
+        Movie otherMovie = new Movie();
+        otherMovie.setName("Avatar");
+        otherMovie.setReleaseyear(2023);
+        otherMovie.setDurationInMinutes(200);
+
+        CalculadoraDeTempo calculadora = new CalculadoraDeTempo();
+        calculadora.inclui(myMovie);
+        calculadora.inclui(otherMovie);
+        calculadora.inclui(lost);
+        System.out.println(calculadora.getTempoTotal());
 
     }
 }
