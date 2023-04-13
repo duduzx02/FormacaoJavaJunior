@@ -1,6 +1,7 @@
 package br.com.alura.screenmatch.modelos;
 
 import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
+import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,7 +13,7 @@ public class Main {
 
         myMovie.showedTechnicalSheet();
 
-        myMovie.evaluate(8);
+        myMovie.evaluate(1);
         myMovie.evaluate(5);
         myMovie.evaluate(10);
 
@@ -42,6 +43,22 @@ public class Main {
         calculadora.inclui(otherMovie);
         calculadora.inclui(lost);
         System.out.println(calculadora.getTempoTotal());
+
+        System.out.println("--------------------------------------");
+
+        FiltroRecomendacao filtroRecomendacao = new FiltroRecomendacao();
+        filtroRecomendacao.filtra(myMovie);
+
+        System.out.println("--------------------------------------");
+
+        Episodio episodio = new Episodio();
+        episodio.setNome("Piloto");
+        episodio.setNumero(1);
+        episodio.setTotalVizualizacoes(300);
+        episodio.setSerie(lost);
+        filtroRecomendacao.filtra(episodio);
+
+
 
     }
 }
