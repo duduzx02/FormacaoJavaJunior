@@ -3,6 +3,8 @@ package br.com.alura.screenmatch.modelos;
 import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
 
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
         Movie myMovie = new Movie();
@@ -57,6 +59,21 @@ public class Main {
         episodio.setTotalVizualizacoes(300);
         episodio.setSerie(lost);
         filtroRecomendacao.filtra(episodio);
+
+        var filmeEduardo = new Movie();
+        filmeEduardo.setName("Dogville");
+        filmeEduardo.setDurationInMinutes(200);
+        filmeEduardo.setReleaseyear(2003);
+        filmeEduardo.evaluate(10);
+        myMovie.showedTechnicalSheet();
+        System.out.println("--------------------------------------");
+
+        ArrayList<Movie> listaDeFilmes = new ArrayList<>();
+        listaDeFilmes.add(myMovie);
+        listaDeFilmes.add(otherMovie);
+        listaDeFilmes.add(filmeEduardo);
+        System.out.println("Tamanho da lista: " + listaDeFilmes.size());
+        System.out.println("Primeiro filme: " + listaDeFilmes.get(0).getName());
 
 
 
