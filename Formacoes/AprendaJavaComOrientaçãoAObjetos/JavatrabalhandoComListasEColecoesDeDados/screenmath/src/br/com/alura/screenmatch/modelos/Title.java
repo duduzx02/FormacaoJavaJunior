@@ -72,5 +72,4 @@ public class Title {
        return sumOfRatings / evaluationTotal;
     }
 
-
 }
