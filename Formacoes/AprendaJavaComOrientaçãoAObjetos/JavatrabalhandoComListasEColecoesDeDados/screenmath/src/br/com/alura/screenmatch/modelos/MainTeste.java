@@ -4,16 +4,14 @@ import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 
 public class MainTeste {
     public static void main(String[] args) {
-        Movie favorito = new Movie();
-        favorito.setName("The Matrix");
+        Movie favorito = new Movie("The Matrix");
         favorito.setReleaseyear(1999);
         favorito.setDurationInMinutes(135);
         favorito.setIncludedInThePlan(true);
 
         favorito.showedTechnicalSheet();
 
-        Movie outro = new Movie();
-        outro.setName("John Wick");
+        Movie outro = new Movie("John Wick");
         outro.setReleaseyear(2014);
         outro.setDurationInMinutes(101);
         outro.setIncludedInThePlan(true);

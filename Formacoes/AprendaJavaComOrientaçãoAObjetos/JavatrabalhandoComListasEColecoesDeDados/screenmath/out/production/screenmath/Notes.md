@@ -15,3 +15,6 @@
 ## Para isso que usamos uma classe chamada ArrayList
 ## ArrayList
 - Encapsula e abstrai uma array, facilitando a sua utilização via métodos.
+
+## Construtor:
+- Método que tem como função a criação de um objeto em memória.

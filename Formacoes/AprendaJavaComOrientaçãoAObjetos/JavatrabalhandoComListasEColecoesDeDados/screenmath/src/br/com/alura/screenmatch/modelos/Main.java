@@ -7,8 +7,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        Movie myMovie = new Movie();
-        myMovie.setName("O poderoso chefão");
+        Movie myMovie = new Movie("O poderoso chefão");
         myMovie.setReleaseyear(1970);
         myMovie.setDurationInMinutes(180);
         System.out.println("Duração do filme: " + myMovie.getDurationInMinutes());
@@ -35,8 +34,7 @@ public class Main {
 
         System.out.println("--------------------------------------");
 
-        Movie otherMovie = new Movie();
-        otherMovie.setName("Avatar");
+        Movie otherMovie = new Movie("Avatar");
         otherMovie.setReleaseyear(2023);
         otherMovie.setDurationInMinutes(200);
 
@@ -60,8 +58,7 @@ public class Main {
         episodio.setSerie(lost);
         filtroRecomendacao.filtra(episodio);
 
-        var filmeEduardo = new Movie();
-        filmeEduardo.setName("Dogville");
+        var filmeEduardo = new Movie("Dogville");
         filmeEduardo.setDurationInMinutes(200);
         filmeEduardo.setReleaseyear(2003);
         filmeEduardo.evaluate(10);
