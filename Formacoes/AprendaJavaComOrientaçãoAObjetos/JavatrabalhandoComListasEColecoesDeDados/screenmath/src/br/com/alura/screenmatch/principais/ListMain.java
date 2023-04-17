@@ -29,9 +29,10 @@ public class ListMain {
 
         for(Title item : lista){
             System.out.println(item);
-            Movie filme = (Movie) item;
-            System.out.println("Classificação: " + ((Movie) item).getClassificacao());
-            System.out.println("Classificação: " + filme.getClassificacao());
+            if(item instanceof Movie filme && filme.getClassificacao() > 2){
+                System.out.println("Classificação de "+ item.getName() + ": " + filme.getClassificacao());
+            }
+
         }
     }
 }
