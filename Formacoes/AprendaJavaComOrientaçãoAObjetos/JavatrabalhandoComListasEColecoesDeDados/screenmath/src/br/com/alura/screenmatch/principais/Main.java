@@ -1,7 +1,10 @@
-package br.com.alura.screenmatch.modelos;
+package br.com.alura.screenmatch.principais;
 
 import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
+import br.com.alura.screenmatch.modelos.Episodio;
+import br.com.alura.screenmatch.modelos.Movie;
+import br.com.alura.screenmatch.modelos.Series;
 
 import java.util.ArrayList;
 
@@ -60,10 +63,13 @@ public class Main {
         myMovie.showedTechnicalSheet();
         System.out.println("--------------------------------------");
 
+        Movie matrix = new Movie("Matrix", 1999);
+
         ArrayList<Movie> listaDeFilmes = new ArrayList<>();
         listaDeFilmes.add(myMovie);
         listaDeFilmes.add(otherMovie);
         listaDeFilmes.add(filmeEduardo);
+        listaDeFilmes.add(matrix);
         System.out.println("Tamanho da lista: " + listaDeFilmes.size());
         System.out.println("Primeiro filme: " + listaDeFilmes.get(0).getName());
 

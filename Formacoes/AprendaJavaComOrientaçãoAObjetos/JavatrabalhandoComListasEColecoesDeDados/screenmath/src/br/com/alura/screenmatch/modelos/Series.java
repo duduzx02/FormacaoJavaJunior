@@ -53,7 +53,11 @@ public class Series extends Title {
     public void showedTechnicalSheet(){
         System.out.println("Nome do Serie: " + getName());
         System.out.println("Ano de lançamento: " + getReleaseyear());
+    }
 
+    @Override
+    public String toString() {
+        return "Serie: " + this.getName() + " (" + this.getReleaseyear() + ")";
     }
 }
 

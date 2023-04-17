@@ -20,7 +20,7 @@ public class Movie extends Title implements Classificavel {
 
     @Override
     public int getClassificacao() {
-        return (int) (mediumCatch() /2);
+        return (int) (mediumCatch() / 2);
     }
 
     @Override

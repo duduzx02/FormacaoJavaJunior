@@ -18,3 +18,4 @@
 
 ## Construtor:
 - Método que tem como função a criação de um objeto em memória.
+- É mais um recurso para encapsular objetos e trabalhar bem com objetos.
