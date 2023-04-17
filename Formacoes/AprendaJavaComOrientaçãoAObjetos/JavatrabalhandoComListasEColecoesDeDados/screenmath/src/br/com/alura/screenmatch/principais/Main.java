@@ -7,6 +7,8 @@ import br.com.alura.screenmatch.modelos.Movie;
 import br.com.alura.screenmatch.modelos.Series;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -65,7 +67,7 @@ public class Main {
 
         Movie matrix = new Movie("Matrix", 1999);
 
-        ArrayList<Movie> listaDeFilmes = new ArrayList<>();
+        List<Movie> listaDeFilmes = new LinkedList<>();
         listaDeFilmes.add(myMovie);
         listaDeFilmes.add(otherMovie);
         listaDeFilmes.add(filmeEduardo);
