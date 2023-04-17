@@ -6,6 +6,7 @@ import br.com.alura.screenmatch.modelos.Series;
 import br.com.alura.screenmatch.modelos.Title;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ListMain {
     public static void main(String[] args) {
@@ -27,12 +28,30 @@ public class ListMain {
         matrix.evaluate(8);
         lista.add(lost);
 
+        System.out.println(lista);
+        System.out.println("Depois do Collections.sort()'");
+        Collections.sort(lista);
+
         for(Title item : lista){
             System.out.println(item);
             if(item instanceof Movie filme && filme.getClassificacao() > 2){
                 System.out.println("Classificação de "+ item.getName() + ": " + filme.getClassificacao());
             }
-
         }
+
+        System.out.println("-------------------------------");
+
+        ArrayList<String> buscaPorArtista = new ArrayList<>();
+        buscaPorArtista.add("Adam");
+        buscaPorArtista.add("Dudu");
+        buscaPorArtista.add("Charlier");
+        System.out.println(buscaPorArtista);
+        System.out.println("Depois do Collections.sort()'");
+        Collections.sort(buscaPorArtista);
+        System.out.println(buscaPorArtista);
+
+
+
+
     }
 }
