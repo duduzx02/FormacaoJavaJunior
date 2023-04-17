@@ -5,10 +5,11 @@ import br.com.alura.screenmatch.modelos.Series;
 import br.com.alura.screenmatch.modelos.Title;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class PrincipalComListas {
     public static void main(String[] args) {
-        Movie favorito = new Movie("The Matrix", 19990);
+        Movie favorito = new Movie("The Matrix", 1990);
         favorito.evaluate(10);
 
         Movie outro = new Movie("John Wick", 2014);
@@ -28,5 +29,10 @@ public class PrincipalComListas {
                 System.out.println("Classificação: " +filme.getClassificacao());
             }
         }
+
+        System.out.println("------------------");
+        lista.sort(Comparator.comparing(Title::getReleaseyear));
+        System.out.println("Ordenação por ano de lançamento: " + lista);
+
     }
 }
