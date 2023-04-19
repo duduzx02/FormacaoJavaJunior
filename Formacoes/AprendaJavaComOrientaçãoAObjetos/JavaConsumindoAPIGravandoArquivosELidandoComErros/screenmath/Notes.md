@@ -234,4 +234,6 @@ try {
 - Repare que agora a instrução aparece apenas uma vez, dentro do bloco finally, evitando com isso uma duplicação de 
 código desnecessária. 
 - O finally é muito utilizado em situações onde é necessário limpar recursos, fechar conexões de banco de dados ou 
-  fechar arquivos que foram abertos no bloco try.  
+  fechar arquivos que foram abertos no bloco try.
+
+### Exceções podem ser previstas, tratáveis e antecipadas.
