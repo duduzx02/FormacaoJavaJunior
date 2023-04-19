@@ -121,7 +121,8 @@
 - Para se criar uma classe imutável, sem a utilização do Record, era necessário escrever muito código. Vejamos um 
   exemplo de uma classe que representa um telefone:
 - 
-`public final class Telefone {
+``` java
+  public final class Telefone {
 
   private final String ddd;
   private final String numero;
@@ -156,7 +157,9 @@
   public String getNumero() {
   return this.numero;
   }
-  } `
+  }
+```
+  
 - Agora com o Record, todo esse código pode ser resumido com uma única linha:
 - `public record Telefone(String ddd, String numero){}`
 
@@ -193,3 +196,42 @@ Vamos exemplificar. Dado o record abaixo:
    sincronização.
  - - Segurança: objetos imutáveis são seguros contra alterações acidentais ou mal-intencionadas.
  - - Desempenho: objetos imutáveis podem ser armazenados em cache e reutilizados, o que pode melhorar o desempenho.
+
+# O bloco finally
+- Aprendemos que quando ocorre uma exceção, o Java permite tratar o erro usando a declaração try-catch. Entretanto, 
+  existe ainda o bloco finally, que é opcional, mas pode ser útil em certas situações.  
+- O finally é usado para executar um bloco de código independentemente de ocorrer uma exceção ou não, ou seja, ele 
+  sempre é executado. Isso pode ser útil quando precisamos executar um código tanto no try, caso não ocorra uma 
+  exceção, quanto no catch, caso uma exceção seja lançada. Por exemplo, suponha que você tenha o seguinte código:  
+
+```java
+try {
+metodoQuePodeLancarExcecao();
+System.out.println("Executou");
+
+System.out.println("Finalizou!");
+} catch (Exception e) {
+System.out.println("Deu erro!");
+
+System.out.println("Finalizou!");
+}
+```
+- Perceba no código anterior que a instrução `System.out.println("Finalizou!");` deve ser sempre executada, 
+  independente de ter acontecido ou exception ou não. Mas o problema é que ela acabou tendo de ser duplicada tanto 
+  no try quanto no catch. O bloco finally nos ajuda justamente a evitar essa duplicação de código:   
+````java
+try {
+  metodoQuePodeLancarExcecao();
+  System.out.println("Executou");
+} catch (Exception e) {
+  System.out.println("Deu erro!");
+} finally {
+  System.out.println("Finalizou!");
+}
+
+````
+
+- Repare que agora a instrução aparece apenas uma vez, dentro do bloco finally, evitando com isso uma duplicação de 
+código desnecessária. 
+- O finally é muito utilizado em situações onde é necessário limpar recursos, fechar conexões de banco de dados ou 
+  fechar arquivos que foram abertos no bloco try.  
