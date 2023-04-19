@@ -1,6 +1,6 @@
 # Integração via APIs
 - A integração de sistemas é uma tarefa muito comum, pois permite que os diferentes serviços e aplicações de uma  
-  empresa funcionem em conjunto, reaproveitando soluções existentes. Uma das principais maneiras de realizar essa 
+  empresa funcionem em conjunto, reaproveitando soluções existentes. Uma das dio.principais maneiras de realizar essa 
   integração  é por meio de APIs.
 -  API (Application Programming Interface) é um conjunto de padrões, protocolos e ferramentas para construir 
    software e aplicativos. Uma API permite que diferentes sistemas e serviços se comuniquem e troquem informações de 
@@ -59,7 +59,7 @@
   faz requisições a um servidor para obter informações, e o servidor responde com os dados solicitados. O HTTP 
   utiliza o TCP (Transmission Control Protocol) como protocolo de transporte para garantir a entrega confiável dos 
   dados.
-- O HTTP utiliza métodos para especificar o tipo de operação que deve ser realizada no servidor. Os principais 
+- O HTTP utiliza métodos para especificar o tipo de operação que deve ser realizada no servidor. Os dio.principais 
   métodos são GET, POST, PUT e DELETE. O método GET é utilizado para solicitar dados do servidor, enquanto o POST é 
   utilizado para enviar informações para o servidor. O PUT é utilizado para atualizar informações no servidor e o 
   DELETE é utilizado para remover informações.
