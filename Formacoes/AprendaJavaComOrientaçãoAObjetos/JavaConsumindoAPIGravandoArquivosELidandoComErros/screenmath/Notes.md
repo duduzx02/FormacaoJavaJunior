@@ -110,5 +110,53 @@
   exemplos incluem o Spring Framework, que é um framework que facilita a criação de aplicações Web e APIs Rest 
   complexas em Java; o Hibernate, que é um framework de mapeamento objeto-relacional e simplifica muito o processo 
   de integração de uma aplicação Java com um banco de dados relacional.
+
+# Java Record
+- Lançado oficialmente no Java 16, mas disponível desde o Java 14 de maneira experimental, o Record é um recurso que 
+  permite representar uma classe imutável, contendo apenas atributos, construtor e métodos de leitura, de uma 
+  maneira muito simples e enxuta.
+- Lançado oficialmente no Java 16, mas disponível desde o Java 14 de maneira experimental, o Record é um recurso que 
+  permite representar uma classe imutável, contendo apenas atributos, construtor e métodos de leitura, de uma 
+  maneira muito simples e enxuta.
+- Para se criar uma classe imutável, sem a utilização do Record, era necessário escrever muito código. Vejamos um 
+  exemplo de uma classe que representa um telefone:
 - 
+`public final class Telefone {
+
+  private final String ddd;
+  private final String numero;
+
+  public Telefone(String ddd, String numero) {
+  this.ddd = ddd;
+  this.numero = numero;
+  }
+
+  @Override
+  public int hashCode() {
+  return Objects.hash(ddd, numero);
+  }
+
+  @Override
+  public boolean equals(Object obj) {
+  if (this == obj) {
+  return true;
+  } else if (!(obj instanceof Telefone)) {
+  return false;
+  } else {
+  Telefone other = (Telefone) obj;
+  return Objects.equals(ddd, other.ddd)
+  && Objects.equals(numero, other.numero);
+  }
+  }
+
+  public String getDdd() {
+  return this.ddd;
+  }
+
+  public String getNumero() {
+  return this.numero;
+  }
+  } `
+- Agora com o Record, todo esse código pode ser resumido com uma única linha:
+- `public record Telefone(String ddd, String numero){}`
 
