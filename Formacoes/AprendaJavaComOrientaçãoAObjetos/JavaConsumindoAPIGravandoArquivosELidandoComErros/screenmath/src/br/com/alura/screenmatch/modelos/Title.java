@@ -24,7 +24,7 @@ public class Title implements Comparable<Title> {
             throw new ErroNaConversaoDeAnoException("O ano tem mais de 04 caracteres! ");
         }
         this.releaseyear = Integer.valueOf(meuTitulo.year());
-        this.durationInMinutes = Integer.valueOf(meuTitulo.runtime().substring(0, 3));
+        this.durationInMinutes = Integer.valueOf(meuTitulo.runtime().substring(0, 2));
     }
 
     public int getEvaluationTotal(){
@@ -99,7 +99,7 @@ public class Title implements Comparable<Title> {
     @Override
     public String toString() {
         return
-                "" + name + "(" + releaseyear + ") Duração: " + durationInMinutes + "min";
+                "(" + name + "(" + releaseyear + ") Duração: " + durationInMinutes + "min)";
 
     }
 }

@@ -379,3 +379,5 @@ Scanner scanner = new Scanner(arquivo);
 - A classe **Scanner** também pode ser usada para ler dados de entrada de outras fontes, como o teclado e strings. Além 
   disso, ela oferece muitas opções para personalizar a forma como os dados são lidos, incluindo a capacidade de usar 
   _expressões regulares_ para analisar o texto.  
+
+- Break: (Comando para interromper um laço de repetição)
