@@ -8,3 +8,5 @@
 - Para mostrar se teve alguma atualização no repositório origem -> ``git pull <endereço do repositório(ex:  https://github.com/duduzx02/FormacaoJavaJunior.git)>``
 - Para vizualizar todas as alterações -> ``git status``
 - Para colocar uma mensagem no commit -> ``git commit src/Trabalhandosrc/TrabalhandoLocalmente/Notes.md -m "Colocando novas linhas de comando"``
+- Para colocar todos os commits no Github -> ``git push origin main``
+
