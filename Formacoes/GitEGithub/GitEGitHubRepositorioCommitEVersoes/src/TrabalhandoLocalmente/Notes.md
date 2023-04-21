@@ -8,5 +8,8 @@
 - Para mostrar se teve alguma atualização no repositório origem -> ``git pull <endereço do repositório(ex:  https://github.com/duduzx02/FormacaoJavaJunior.git)>``
 - Para vizualizar todas as alterações -> ``git status``
 - Para colocar uma mensagem no commit -> ``git commit src/Trabalhandosrc/TrabalhandoLocalmente/Notes.md -m "Colocando novas linhas de comando"``
-- Para colocar todos os commits no Github -> ``git push origin main``
-
+- - Para colocar todos os commits no Github -> ``git push origin main``
+- Diff é onde mostra o antes e depois do código
+- Para voltar um estado anterior -> ``git restore --source <número do hex ex:(986833d) . ou <nome do arquivo ex:
+  (Notes.md)>>``
+- 
