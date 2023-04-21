@@ -12,4 +12,3 @@
 - Diff é onde mostra o antes e depois do código
 - Para voltar um estado anterior -> ``git restore --source <número do hex ex:(986833d) . ou <nome do arquivo ex:
   (Notes.md)>>``
-- 
