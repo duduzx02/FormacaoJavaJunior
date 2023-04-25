@@ -15,5 +15,11 @@ public class ImprimindoAlunosSemAcentos {
             System.out.println(aluno);
         });
 
+        System.out.println(alunos.size());
+        alunos.add("Nico");
+        System.out.println(alunos.size());
+
+        boolean adicionou = alunos.add("Eduardo");
+        System.out.println("Eduardo foi adicionado ao Set? " + adicionou);
     }
 }
