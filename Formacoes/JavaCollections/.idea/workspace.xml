@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a78a2235-3c38-4a21-b73a-eb2732db0c3f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/.idea/JavaExcecoes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-encapsulado/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-encapsulado/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-encapsulado/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-encapsulado/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-encapsulado/src/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-encapsulado/src/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-encapsulado/src/TesteContas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado-conta/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado-conta/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado-conta/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado-conta/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado-conta/src/CalculadorDeImposto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado-conta/src/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado-conta/src/Conta.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado-conta/src/ContaCorrente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado-conta/src/ContaPoupanca.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado-conta/src/SeguroDeVida.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado-conta/src/TesteContas.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado-conta/src/TesteTributaveis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado-conta/src/Tributavel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/bin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/src/Administrador.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/src/AutenticacaoUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/src/Autenticavel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/src/Cliente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/src/ControleBonificacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/src/Designer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/src/EditorVideo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/src/Funcionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/src/Gerente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/src/SistemaInterno.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/src/TesteFuncionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/src/TesteGerente.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/src/TesteReferencias.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JavaExcecoes/bytebank-herdado/src/TesteSistema.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2OtiBkh3JxUC9nBaDjqIMBu8goh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Eduardo Lima/OneDrive/Documentos/JAVA/JavaJunior/Formacoes/JavaCollections"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a78a2235-3c38-4a21-b73a-eb2732db0c3f" name="Changes" comment="" />
+      <created>1682386146082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682386146082</updated>
+    </task>
+    <servers />
+  </component>
+</project>
