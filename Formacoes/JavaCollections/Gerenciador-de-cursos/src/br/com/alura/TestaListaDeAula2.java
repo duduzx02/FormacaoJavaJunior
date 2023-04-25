@@ -1,6 +1,7 @@
 package br.com.alura;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 
 public class TestaListaDeAula2 {
     public static void main(String[] args) {
@@ -13,6 +14,17 @@ public class TestaListaDeAula2 {
         aulas.add(a2);
         aulas.add(a3);
 
+        aulas.forEach(aula -> {
+            System.out.println(aula);
+        });
+        System.out.println("Ordenação por tempo de aula: ");
+        aulas.sort(Comparator.comparing(Aula::getTempo));
+        aulas.forEach(aula -> {
+            System.out.println(aula);
+        });
+
+        System.out.println("Por ordem alfabético: ");
+        aulas.sort(Comparator.comparing(Aula::getTitulo));
         aulas.forEach(aula -> {
             System.out.println(aula);
         });
