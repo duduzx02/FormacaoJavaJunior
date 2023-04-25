@@ -22,5 +22,6 @@ public class TestandoListas2 {
         cursos.remove(0);
 
         System.out.println(cursos);
+        System.out.println("O primeiro curso da lista é o: " + cursos.get(0));
     }
 }
