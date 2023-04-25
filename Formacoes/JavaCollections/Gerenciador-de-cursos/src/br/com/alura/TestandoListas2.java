@@ -18,5 +18,9 @@ public class TestandoListas2 {
         cursos.forEach(curso -> {
             System.out.println("Curso : " + curso);
         });
+
+        cursos.remove(0);
+
+        System.out.println(cursos);
     }
 }
