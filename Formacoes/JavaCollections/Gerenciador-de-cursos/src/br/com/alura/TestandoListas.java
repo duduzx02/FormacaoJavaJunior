@@ -28,7 +28,7 @@ public class TestandoListas {
         System.out.println(primeiraAula);
 
         for (int i = 0; i < aulas.size(); i++) {
-            System.out.println("Aulas : " + 0+(i+1) + aulas.get(i));
+            System.out.println("Aula : " + 0+(i+1) + aulas.get(i));
         }
 
         System.out.println("Tamanho da ArrayList: " + aulas.size());
