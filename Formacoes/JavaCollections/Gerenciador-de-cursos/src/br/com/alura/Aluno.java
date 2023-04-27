@@ -21,4 +21,15 @@ public class Aluno {
     public String toString() {
         return "Aluno: " + nome + ", Matricula: " + numeroMatricula;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        Aluno outro = (Aluno) obj;
+        return this.nome.equals(outro.nome);
+    }
+
+    @Override
+    public int hashCode() {
+        return  this.nome.hashCode();
+    }
 }

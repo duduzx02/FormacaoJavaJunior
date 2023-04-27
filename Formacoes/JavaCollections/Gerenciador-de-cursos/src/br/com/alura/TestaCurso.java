@@ -11,7 +11,6 @@ public class TestaCurso {
         javaColecoes.getAulas().forEach(aula -> {
             System.out.println(aula);
         });
-/*        System.out.println(javaColecoes.getAulas());*/
 
 
     }

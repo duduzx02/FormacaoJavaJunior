@@ -31,11 +31,7 @@ public class Curso {
     }
 
     public int getTempoTotal(){
-        int tempoTotal = 0;
-        for (Aula aula: aulas) {
-            tempoTotal += aula.getTempo();
-        }
-        return tempoTotal;
+        return this.aulas.stream().mapToInt(Aula::getTempo).sum();
     }
 
     @Override
@@ -50,4 +46,9 @@ public class Curso {
     public Set<Aluno> getAlunos() {
         return Collections.unmodifiableSet(alunos);
     }
+
+    public boolean estaMatriculado(Aluno aluno) {
+        return this.alunos.contains(aluno);
+    }
+
 }
