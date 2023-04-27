@@ -47,3 +47,6 @@
 ## Liskov Substitution Principle
 - Se q(x) é uma propriedade demonstrável dos objetos x de tipo T, então q(y) deve ser verdadeiro para objetos y de 
   tipo s, onde S é um subtipo de T.
+
+## Dependency Inversion Principle
+- Abstrações não devem depender de implementações. Implementações devem depender de abstrações.
