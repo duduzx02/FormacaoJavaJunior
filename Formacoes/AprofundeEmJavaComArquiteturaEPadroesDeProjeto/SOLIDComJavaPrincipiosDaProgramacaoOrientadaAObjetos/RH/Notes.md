@@ -36,3 +36,6 @@
 - - Acoplamento é a dependência entre classes;
 - - Acoplamento nem sempre é ruim, e que é impossível criar um sistema sem nenhum acoplamento;
 - - Devemos controlar o nível de acoplamento na nossa aplicação 
+
+## Single Responsibility Principle
+- Uma classe deveria ter apenas um único motivo para mudar.
