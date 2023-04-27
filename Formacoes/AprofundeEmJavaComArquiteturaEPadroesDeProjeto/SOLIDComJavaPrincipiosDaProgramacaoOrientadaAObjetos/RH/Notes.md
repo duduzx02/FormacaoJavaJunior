@@ -39,3 +39,7 @@
 
 ## Single Responsibility Principle
 - Uma classe deveria ter apenas um único motivo para mudar.
+
+## Open Closed Principle
+- Entidades de software (classes, módulos, funções, etc.) devem estar abertas para extensão, porém fechadas para 
+  modificações.
