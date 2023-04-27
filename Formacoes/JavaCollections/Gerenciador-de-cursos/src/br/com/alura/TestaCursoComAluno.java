@@ -1,5 +1,6 @@
 package br.com.alura;
 
+import java.util.Iterator;
 import java.util.Set;
 
 public class TestaCursoComAluno {
@@ -39,5 +40,14 @@ public class TestaCursoComAluno {
 
         System.out.println("a1.hashCode() == turini.hashCode()");
         System.out.println(a1.hashCode() == turini.hashCode());
+
+
+        Set<Aluno> alunos = javaColecoes.getAlunos();
+        Iterator<Aluno> iterador = alunos.iterator();
+        while(iterador.hasNext()){
+            Aluno proximoaluno =  iterador.next();
+            System.out.println(proximoaluno);
+        }
+
     }
 }
