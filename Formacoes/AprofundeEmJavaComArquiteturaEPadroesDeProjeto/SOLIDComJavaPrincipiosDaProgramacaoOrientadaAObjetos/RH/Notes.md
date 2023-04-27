@@ -19,3 +19,7 @@
 - - Classes não encapsuladas permitem violação de regras de negócios, além de aumentarem o acoplamento
 
 - Acoplamento
+- - Ação de acoplar. Agrupamento aos pares.
+- - ![img_4.png](img_4.png)
+- - ![img_5.png](img_5.png)
+- - Classes acopladas causam fragilidade no código da aplicação, o que dificulta sua manutenção.
