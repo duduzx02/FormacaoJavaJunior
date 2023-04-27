@@ -1,5 +1,7 @@
 package br.com.alura;
 
+import java.util.Objects;
+
 public class Aluno {
     private String nome;
     private int numeroMatricula;
@@ -26,13 +28,14 @@ public class Aluno {
     }
 
     @Override
-    public boolean equals(Object obj) {
-        Aluno outro = (Aluno) obj;
-        return this.nome.equals(outro.nome);
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Aluno aluno)) return false;
+        return getNumeroMatricula() == aluno.getNumeroMatricula() && Objects.equals(getNome(), aluno.getNome());
     }
 
     @Override
     public int hashCode() {
-        return  this.nome.hashCode();
+        return Objects.hash(getNome(), getNumeroMatricula());
     }
 }
