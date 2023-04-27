@@ -43,3 +43,7 @@
 ## Open Closed Principle
 - Entidades de software (classes, módulos, funções, etc.) devem estar abertas para extensão, porém fechadas para 
   modificações.
+
+## Liskov Substitution Principle
+- Se q(x) é uma propriedade demonstrável dos objetos x de tipo T, então q(y) deve ser verdadeiro para objetos y de 
+  tipo s, onde S é um subtipo de T.

@@ -7,7 +7,8 @@ public class Terceirizado{
     private String empresa;
 
     public Terceirizado(String nome, String cpf, Cargo cargo, BigDecimal salario) {
-        super(nome, cpf, cargo, salario);
+        this.dadosPessoais = new DadosPessoais(nome, cpf, cargo, salario);
+        this.empresa = getEmpresa();
     }
 
     public String getEmpresa() {
