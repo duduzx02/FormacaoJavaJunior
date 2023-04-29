@@ -50,3 +50,6 @@
 
 ## Dependency Inversion Principle
 - Abstrações não devem depender de implementações. Implementações devem depender de abstrações.
+
+## Interface Segregation Principle
+- Uma classe não deveria ser forçada a depender de métodos que não utilizará
