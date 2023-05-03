@@ -1,6 +1,7 @@
 package br.com.alura.loja;
 
 import br.com.alura.loja.pedido.GeraPedido;
+import br.com.alura.loja.pedido.GeraPeidoHandler;
 
 import java.math.BigDecimal;
 
@@ -11,7 +12,8 @@ public class TestePedido {
         int quantidaDeItens = Integer.parseInt(args[2]);
 
         GeraPedido gerador = new GeraPedido(cliente, valorOrcamento, quantidaDeItens);
-        gerador.executa();
+        GeraPeidoHandler handler = new GeraPeidoHandler();
+        handler.execute(gerador);
     }
 
 
