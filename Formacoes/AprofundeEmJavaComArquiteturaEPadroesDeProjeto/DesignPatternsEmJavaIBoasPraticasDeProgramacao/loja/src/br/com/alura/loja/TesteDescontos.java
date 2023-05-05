@@ -10,9 +10,9 @@ import java.math.BigDecimal;
 
 public class TesteDescontos {
     public static void main(String[] args) {
-        Orcamento primeiro = new Orcamento(new BigDecimal("200"), 6);
+        Orcamento primeiro = new Orcamento();
 
-        Orcamento segundo = new Orcamento(new BigDecimal("1000"), 1);
+        Orcamento segundo = new Orcamento();
 
         CalculadoraDeDecontos calculadoraDeDecontos = new CalculadoraDeDecontos();
         System.out.println(calculadoraDeDecontos.calcular(primeiro));
