@@ -5,7 +5,6 @@ import br.com.alura.loja.pedido.GeraPeidoHandler;
 import br.com.alura.loja.pedido.acao.EnviarEmailPedido;
 import br.com.alura.loja.pedido.acao.SalvarPedidoNoBancoDeDados;
 
-import java.lang.reflect.Array;
 import java.math.BigDecimal;
 import java.util.Arrays;
 
