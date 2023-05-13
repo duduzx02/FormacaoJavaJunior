@@ -10,3 +10,7 @@
 - - State
 - - Command
 - - Observer
+
+## Conhecendo o TDD
+![img.png](img.png)
+![img_1.png](img_1.png)
