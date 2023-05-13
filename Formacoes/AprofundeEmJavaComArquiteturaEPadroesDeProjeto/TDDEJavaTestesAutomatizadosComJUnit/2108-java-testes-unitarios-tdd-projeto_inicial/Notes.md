@@ -14,3 +14,6 @@
 - Criado em 1995 por Kent Beck e Erich Gamma
 - Gratuito e open source (https://github.com/junit-team/junit5)
 - Foco em testes de unidade (testes unitários)
+
+## Implementando uma funcionalidade com TDD
+![img_2.png](img_2.png)
