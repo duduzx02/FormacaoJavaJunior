@@ -17,3 +17,10 @@
 
 ## Implementando uma funcionalidade com TDD
 ![img_2.png](img_2.png)
+
+## Quando usar TDD? (TEST DRIVEN DEVELOPMENT)
+- Código já sai "testado";
+- Evita testes "viciados" na implementação;
+- Refatoração faz parte do processo;
+- Ajuda a manter o foco;
+- Temos uma "tenência" em escrever um código mais simples.
